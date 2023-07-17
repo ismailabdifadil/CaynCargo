@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* NAVIGATION PAGE PART  */
+
+.nav-container{ 
+    width: 100%;
+    height: 80px;
+}
+.nav-container .sub-container{
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
+
+.nav-container .menu{
+    flex: 1;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: roboto; 
+}  
+
+
+
+
+.about-us{
+    width: 100%;
+    height: auto;
+
+}
+.about-us .title{
+    width: 100;
+    background-color: #F4B205;
+    height: 150px;
+}
+.about-us .title h1{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-family: roboto;
+}  
+
+.about-us .container{
+width: 70%;
+margin: auto;
+}
+table{
+border-collapse: collapse;
+width: 700px;
+margin: auto;
+margin-top: 20px;
+font-family: roboto;
+font-size: 25px;
+margin-bottom: 20px;
+}
+th,td{
+padding: 5px;
+}
+
+
+
+/* FOOTER SECTION  */
+
+.footer-container{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    }
+    .footer-container .contents{
+    text-align: center;
+    padding-top: 40px;
+    }
+    .footer-container h2{
+    color: white;
+    font-family: roboto;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 5px;
+    }

@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVIGATION PAGE PART  */
+
+.nav-container{ 
+    width: 100%;
+    height: 80px;
+}
+.nav-container .sub-container{
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
+
+.nav-container .menu{
+    flex: 1;
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: roboto; 
+}  
+
+
+
+/* SERVICES PAGE PART  */
+
+
+
+
+.services-page .title{
+    width: 100;
+    background-color: #F31819;
+    height: 150px;
+}
+.services-page .title h1{
+    font-size: 100px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-family: roboto;
+}
+
+
+.services-page .container h3{
+    font-size: 50px;
+    font-family: roboto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.services-page .divider{
+    border-bottom: 2px solid black;
+    width: 700px;
+    margin: auto;
+    margin-top: 0;
+}
+
+
+.services-page .heading h4{
+    font-size: 38px;
+    font-family: roboto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+/* 1 */
+.services-page .contents1{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.services-page .col-text1 p{
+    font-size: 28px;
+    font-family: roboto;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+/* 2 */
+.services-page .contents2{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.services-page .col-text2 p{
+    font-size: 28px;
+    font-family: roboto;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+/* 3 */
+
+.services-page .contents3{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.services-page .col-text3 p{
+    font-size: 28px;
+    font-family: roboto;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+ /* FOOTER SECTION  */
+
+ .footer-container{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.footer-container .contents{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-container h2{
+    color: white;
+    font-family: roboto;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 5px;
+}

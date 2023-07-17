@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{ 
+width: 100%;
+height: 80px;
+}
+.nav-container .sub-container{
+width: 70%;
+height: 80px;
+margin: auto;
+display: flex;
+}
+
+.nav-container .menu{
+flex: 1;
+}
+.nav-container ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+.nav-container ul li a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 25px;
+font-family: roboto; 
+}  
+
+/* LANDING PAGE SECTION  */
+
+.landing-container{
+    width: 100%;
+    height: 80vh;
+    background-color: #F31819;
+    margin-top: 0;
+}
+.landing-container .sub-container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.landing-container h1{
+    color: white;
+    font-size: 80px;
+    font-family: roboto;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.landing-container p{
+    color: white;
+    font-size: 22px;
+    margin-top: 5PX;
+    font-family: roboto;
+    margin-right: 10px;
+}
+
+/* WHO WE ARE PAGE SECTION  */
+
+.who-container{
+    width: 100%;
+    height: 500px;
+}
+.who-container .sub-container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.who-container h2{
+    font-size: 50px;
+    font-family: roboto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.who-container .divider{
+    border-bottom: 2px solid black;
+    width: 450px;
+    margin: auto;
+    margin-top: 0;
+}
+.who-container .image{
+    margin-top: 50px;
+}
+.who-container .contents{
+    display: flex;
+}
+.who-container p{
+    font-size: 32px;
+    font-family: roboto;
+   margin-top: 80px;
+   margin-left: 50px;
+   color: #707070;
+}
+
+
+/* OUR MAIN SERVICES  */
+
+.services-container{
+width: 100%;
+height: 470px;
+background-color: #E7E7E7;
+}
+.services-container .sub-container{
+width: 70%;
+height: 100%;
+margin: auto;
+}
+.services-container .contents{
+display: flex;
+justify-content: space-between;
+}
+.box-container{
+width: 250px;
+height: 280px;
+background-color: #ffffff;
+border-radius: 10px;
+text-align: center;
+}
+.box-container h3{
+margin: 0;
+font-family: roboto;
+font-size: 22px;
+font-weight: 800;
+
+
+}
+.box-container p{
+font-family: roboto;
+font-size: 16px;
+margin-top: 10px ;
+}
+
+.box-container1{
+width: 250px;
+height: 280px;
+background-color: #ffffff;
+border-radius: 10px;
+text-align: center;
+}
+.box-container1 h3{
+margin: 0;
+font-family: roboto;
+font-size: 22px;
+font-weight: 800;
+
+}
+.box-container1 p{
+font-family: roboto;
+font-size: 16px;
+margin-top: 10px ;
+}
+
+.box-container2{
+width: 250px;
+height: 280px;
+background-color: #ffffff;
+border-radius: 10px;
+text-align: center;
+}
+.box-container2 h3{
+margin: 0;
+font-family: roboto;
+font-size: 22px;
+font-weight: 800;
+
+}
+.box-container2 p{
+font-family: roboto;
+font-size: 16px;
+margin-top: 10px ;
+}
+
+.services-container h2{
+    font-size: 50px;
+    font-family: roboto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+   
+}
+
+.services-container .divider{
+    border-bottom: 2px solid black;
+    width: 450px;
+    margin: auto;
+    margin-top: 0;
+}
+.services-container .contents{
+margin-top: 50px;
+}
+
+/* CONTACT PAGE SECTION */
+
+.contact-container{
+width: 100%;
+height: 400px;
+}
+.contact-container .sub-container{
+width: 70%;
+height: 100%;
+margin: auto;
+}
+
+.contact-container h2{
+
+font-size: 50px;
+font-family: roboto;
+text-align: center;
+margin-bottom: 10px;
+}
+.contact-container .divider{
+    border-bottom: 2px solid black;
+    width: 450px;
+    margin: auto;
+    margin-top: 0;
+
+}
+.contact-container .contents{
+display: flex;
+padding-top: 20px;
+}
+.contact-container .col-text{
+flex: 2;
+
+}
+.col-text h3{
+font-size: 36px;
+font-family: roboto;
+font-weight: 700;
+}
+.col-text p{
+font-size: 16px;
+font-family: roboto;
+font-weight:400;
+margin-right: 80px;
+}
+.contact-container .col-form{
+flex: 2;
+padding-left: 20px;
+}
+input{
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+height: 30px;
+width: 300px;
+border-radius: 5px;
+background-color: lightgray;
+
+}
+textarea{
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+width: 300px;
+border-radius: 5px;
+background-color: lightgrey;
+
+}
+button{
+border: none;
+padding: 10px;
+background-color: #F4B205;
+border-radius: 5px;
+}
+
+
+/* FOOTER SECTION  */
+
+.footer-container{
+width: 100%;
+height: 250px;
+background-color: black;
+}
+.footer-container .contents{
+text-align: center;
+padding-top: 40px;
+}
+.footer-container h2{
+color: white;
+font-family: roboto;
+font-size: 32px;
+font-weight: 300;
+margin-top: 5px;
+}
+
+
+
